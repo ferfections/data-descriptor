@@ -1,7 +1,6 @@
-# 🗂️ data-descriptor
+# 🗂️ Data Descriptor
 
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
 
 **data-descriptor** is a lightweight Python utility designed to act as a mini Data Catalog for your local files. Given a directory containing tabular data (CSV or Parquet), it automatically generates a structured JSON metadata file. 
 
@@ -42,11 +41,11 @@ python data_descriptor.py ./sales_2024 --dbname "Sales CRM Database" --output "s
 ```
 
 **Arguments:**
-- 'directory': (Required) Path to the directory containing the CSV/Parquet files.
+- directory: (Required) Path to the directory containing the CSV/Parquet files.
 
-- '--dbname': (Optional) Name of your dataset/database. Default is "Generic Database".
+- --dbname: (Optional) Name of your dataset/database. Default is "Generic Database".
 
-- '--output': (Optional) Name of the generated JSON file. Default is "metadata.json".
+- --output: (Optional) Name of the generated JSON file. Default is "metadata.json".
 
 2. Programmatic Usage (Python Module)
 If you need to add custom table relations (Foreign Keys), since these are not stored natively in CSV/Parquet files, you can import the class and use it in your own Python scripts:
