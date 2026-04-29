@@ -32,12 +32,12 @@ The easiest way to use data-descriptor is directly from your terminal. Just poin
 **Basic usage:**
 
 ```Bash
-python data_descriptor.py ./path/to/your/data_folder
+python src/data_descriptor.py ./path/to/your/data_folder
 ```
 **Advanced usage** (Custom Database Name and Output File):
 
 ```Bash
-python data_descriptor.py ./sales_2024 --dbname "Sales CRM Database" --output "sales_metadata.json"
+python src/data_descriptor.py ./sales_2024 --dbname "Sales CRM Database" --output "sales_metadata.json"
 ```
 
 **Arguments:**
