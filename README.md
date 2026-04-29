@@ -1,2 +1,2 @@
-# data-descriptor
-A lightweight Python utility that scans directories of CSV and Parquet files to automatically extract and generate comprehensive JSON metadata, including schemas, row counts, and table relations.
+# Data Descriptor
+A lightweight Python tool designed to act as a mini Data Catalog for your local files. Given a directory containing tabular data (CSV or Parquet), it generates a structured JSON metadata file. This file maps out the global database properties, translates internal data types into standard SQL formats (like VARCHAR or INTEGER), counts rows efficiently, and allows you to define conceptual foreign-key relations between your flat files.
